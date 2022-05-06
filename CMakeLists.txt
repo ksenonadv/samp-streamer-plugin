@@ -32,7 +32,7 @@ include_directories(${EIGEN3_INCLUDE_DIR})
 set(CMAKE_SKIP_INSTALL_ALL_DEPENDENCY True)
 set(CMAKE_SKIP_PACKAGE_ALL_DEPENDENCY True)
 
-add_subdirectory(lib/omp-sdk)
+add_subdirectory(lib/omp/SDK)
 add_subdirectory(lib/omp-gdk)
 include_directories(${OMP_GDK_PATH})
 add_subdirectory(src)
